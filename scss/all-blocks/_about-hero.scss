@@ -1,0 +1,21 @@
+/* --------------about-us---------- */
+
+.hero-about .container{
+  background-image: url('../img/banner-about.jpg');
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding:0px;
+}
+.hero-about__inner{
+  max-width: 565px;
+  padding: 65px 85px;
+  color: rgb(247, 247, 247);
+}
+.salom{
+  width: 100%;
+  max-width: 1320px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}

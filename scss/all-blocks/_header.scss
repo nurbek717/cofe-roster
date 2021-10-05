@@ -1,0 +1,31 @@
+/* ----header---- */
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:43px 20px;
+}
+.nav{
+  margin: 0px;
+}
+.nav__list{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+.nav__item + .nav__item{
+  padding-left: 20px;
+}
+.nav__item .active{
+  color: black;
+}
+.nav__link{
+  height: 15px;
+  color: #83888F;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Barlow';
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.923077px; 
+}

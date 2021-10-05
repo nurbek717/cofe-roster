@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('../font/fraunces-v10-latin-regular.woff2') format('woff2'),
+  url('../font/fraunces-v10-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src:url('../font/fraunces-v10-latin-900.woff2') format('woff2'),
+  url('../font/fraunces-v10-latin-900.woff') format('woff');
+}
+/* barlow-regular - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../font/barlow-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../font/barlow-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../font/barlow-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../font/barlow-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-700italic - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+  url('../font/barlow-v5-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../font/barlow-v5-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

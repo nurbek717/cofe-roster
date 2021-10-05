@@ -1,0 +1,23 @@
+/* -----collection----- */
+.colleaction .container{
+  background-image: url('../img/our\ collection.png');
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: top 0 center;
+  padding-bottom: 200px;
+}
+.colleaction__item{
+  list-style:none ;
+  width: 225px;
+  text-align: center;
+  color: #333D4B;
+}
+.colleaction__list{
+  position: relative;
+  z-index: 1;
+  top: 120px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  margin: 0px;
+}
