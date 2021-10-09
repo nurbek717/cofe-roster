@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./scss/main.css" />
-		<title>cofeeroster</title>
-	</head>
-	<body>
-    <!-- -------header---------- -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <title>cofeeroster</title>
+</head>
+<body>
+  <!-- -------header---------- -->
   <header class="header">
     <div class="container">
       <img src="./img/cofeeroster.svg" alt="cofelogo" width="236" height="26">
@@ -16,49 +16,78 @@
         <ul class="nav__list">
           <li class="nav__item "><a class="nav__link active" href="./index.html">Home</a></li>
           <li class="nav__item"><a class="nav__link" href="./about.html">ABOUT US</a> </li>
-          <li class="nav__item"><a class="nav__link" href="#">CREATE YOUR PLAN</a> </li>
+          <li class="nav__item"><a class="nav__link" href="./next-pj.html">CREATE YOUR PLAN</a> </li>
         </ul>
       </nav>
+      
+      <button class="hamburger">
+        <img
+        class="hamburger__menu"
+        src="./img/icon-hamburger.svg"
+        alt="Hamburger menu"
+        width="16"
+        height="16"
+        />
+        <img
+        class="hamburger__exit"
+        src="./img/icon-exit.svg"
+        alt="Hamburger exit"
+        width="16"
+        height="16"
+        />
+      </button>
     </div>
   </header>
   <!-- -------main------------ -->
   <main class="main">
-		<section class="hero">
-			<div class="salom">
-				<div class="container">
-					<div class="hero__info">
-						<h1 class="hero__heading">Great coffee made simple.</h1>
-						<p class="hero__paragraph">
-							Start your mornings with the world’s best coffees. Try
-							our expertly curated artisan coffees from our best
-							roasters delivered directly to your door, at your
-							schedule.
-						</p>
-						<a class="hero__link" href="#section">Create your plan</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-	  <!-- ------our colleaction----- -->
+    <section class="hero">
+      <div class="salom">
+        <div class="container">
+          <div class="hero__info">
+            <h1 class="hero__heading">Great coffee made simple.</h1>
+            <p class="hero__paragraph">
+              Start your mornings with the world’s best coffees. Try
+              our expertly curated artisan coffees from our best
+              roasters delivered directly to your door, at your
+              schedule.
+            </p>
+            <a class="hero__link" href="#section">Create your plan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ------our colleaction----- -->
     <section class="colleaction">
       <div class="container">
         <ul class="colleaction__list">
-          <li class="colleaction__item"><img src="./img/bag-1.png" alt="" width="255" height="193">
-            <h3>Gran Espresso</h3>
-            <p>Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+          <li class="colleaction__item">
+            <img src="./img/bag-1.png" alt="" width="255" height="193">
+            <div class="colleaction__text">
+              <h3>Gran Espresso</h3>
+              <p>Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+            </div>
           </li>
-          <li class="colleaction__item"><img src="./img/bag-2.png" alt="" width="255" height="193">
-            <h3>Planalto</h3>
-            <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+          <li class="colleaction__item">
+            <img src="./img/bag-2.png" alt="" width="255" height="193">
+            <div class="colleaction__text">
+              <h3>Planalto</h3>
+              <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+            </div>
           </li>
-          <li class="colleaction__item"><img src="./img/bag-3.png" alt="" width="255" height="193">
-            <h3>Piccollo</h3>
-            <p>Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+          <li class="colleaction__item">
+            <img src="./img/bag-3.png" alt="" width="255" height="193">
+            <div class="colleaction__text">
+              <h3>Piccollo</h3>
+              <p>Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+            </div>
           </li>
-          <li class="colleaction__item"><img src="./img/bag-4.png" alt="" width="255" height="193">
-            <h3>Danche</h3>
-            <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+          <li class="colleaction__item">
+            <img src="./img/bag-4.png" alt="" width="255" height="193">
+            <div class="colleaction__text">
+              <h3>Danche</h3>
+              <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -76,18 +105,24 @@
           <ul class="choose__list">
             <li class="choose__item">
               <img class="choose__img" src="./img/cofee-shop.png" alt="code-shop" width="71" height="72">
-              <h3 class="choose__item-heading">Best quality</h3> 
-              <p class="choose__item-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>         
+              <div class="choose__text-bag">
+                <h3 class="choose__item-heading">Best quality</h3> 
+                <p class="choose__item-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>         
+              </div>
             </li>
             <li class="choose__item">
               <img class="choose__img" src="./img/shope-3.png" alt="code-shop" width="71" height="72">
-              <h3 class="choose__item-heading">Exclusive benefits</h3> 
-              <p class="choose__item-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>         
+              <div class="choose__text-bag">
+                <h3 class="choose__item-heading">Exclusive benefits</h3> 
+                <p class="choose__item-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>         
+              </div>
             </li>
             <li class="choose__item">
               <img class="choose__img" src="./img/shop-2.png" alt="code-shop" width="71" height="72">
-              <h3 class="choose__item-heading">Free shipping</h3> 
-              <p class="choose__item-text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>         
+              <div class="choose__text-bag">
+                <h3 class="choose__item-heading">Free shipping</h3> 
+                <p class="choose__item-text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>         
+              </div>
             </li>
           </ul>
         </div>
@@ -124,40 +159,41 @@
         </div>
         
       </section>
-  </main>
-  <!-- -------footer----------- -->
-  <footer class="footer">
-    <div class="container">
-      <a class="header__link" href="#">
-        <img class="header__logo" src="./img/footer-logo.svg" alt="Site logo" width="236" height="26">
-      </a>
-      
-      <nav class="header__navigator">                                                                       
-        <ul class="header__list">
-          <li class="header__item">
-            <a class="footer__inner-link header__inner-link " href="#">HOME</a>
+    </main>
+    <!-- -------footer----------- -->
+    <footer class="footer">
+      <div class="container">
+        <a class="header__link" href="#">
+          <img class="header__logo" src="./img/footer-logo.svg" alt="Site logo" width="236" height="26">
+        </a>
+        
+        <nav class="header__navigator">                                                                       
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="footer__inner-link header__inner-link " href="#">HOME</a>
+            </li>
+            <li class="header__item">
+              <a class="footer__inner-link header__inner-link" href="#">ABOUT US</a>
+            </li>
+            <li class="header__item">
+              <a class="footer__inner-link header__inner-link" href="#">Create your plan</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <ul class="footer__media-list">
+          <li class="footer__media-item">
+            <img class="footer__media-image" src="./img/fethbook.svg" alt="" width="24" height="24">
           </li>
-          <li class="header__item">
-            <a class="footer__inner-link header__inner-link" href="#">ABOUT US</a>
+          <li class="footer__media-item">
+            <img class="footer__media-image" src="./img/tweter.svg" alt="" width="24" height="24">
           </li>
-          <li class="header__item">
-            <a class="footer__inner-link header__inner-link" href="#">Create your plan</a>
+          <li class="footer__media-item">
+            <img class="footer__media-image" src="./img/instagram.svg" alt="" width="24" height="24">
           </li>
         </ul>
-      </nav>
-      
-      <ul class="footer__media-list">
-        <li class="footer__media-item">
-          <img class="footer__media-image" src="./img/fethbook.svg" alt="" width="24" height="24">
-        </li>
-        <li class="footer__media-item">
-          <img class="footer__media-image" src="./img/tweter.svg" alt="" width="24" height="24">
-        </li>
-        <li class="footer__media-item">
-          <img class="footer__media-image" src="./img/instagram.svg" alt="" width="24" height="24">
-        </li>
-      </ul>
-    </div>
-  </footer>
-	</body>
-</html>
+      </div>
+    </footer>
+  </body>
+  </html>
+  

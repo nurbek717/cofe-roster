@@ -1,5 +1,7 @@
 /* --------------about-us---------- */
-
+.hero-about{
+ padding-bottom: 168px;
+}
 .hero-about .container{
   background-image: url('../img/banner-about.jpg');
   border-radius: 10px;
@@ -10,7 +12,7 @@
 }
 .hero-about__inner{
   max-width: 565px;
-  padding: 65px 85px;
+  padding: 100px 85px;
   color: rgb(247, 247, 247);
 }
 .salom{

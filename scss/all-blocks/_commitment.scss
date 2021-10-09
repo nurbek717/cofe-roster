@@ -1,0 +1,27 @@
+.commitment__bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom:168px ;
+}
+.commitment__text{
+  width: 540px;
+}
+.commitment__heading{
+  font-family: 'Fraunces' 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+.commitment__paragrif{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

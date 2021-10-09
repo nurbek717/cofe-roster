@@ -4,11 +4,13 @@
   border-radius: 10px;
   background-repeat: no-repeat;
   background-position: top 0 center;
+  background-size:initial;
   padding-bottom: 200px;
 }
 .colleaction__item{
   list-style:none ;
-  width: 225px;
+  width: 100%;
+  max-width: 225px;
   text-align: center;
   color: #333D4B;
 }
@@ -20,4 +22,43 @@
   justify-content: space-around;
   padding-left: 0;
   margin: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .colleaction__list{
+    flex-direction: column;
+   
+  }
+  .colleaction__item{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    max-width: 600px;
+    text-align: left; 
+    margin-bottom: 50px;
+  }
+  .colleaction__text{
+    display:block;
+    
+  }
+}
+
+
+@media only screen and (max-width: 564px) {
+  .colleaction__item{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 290px;
+    text-align: center;
+
+  }
+  .colleaction .container{
+    background-image: url('../img/our\ collection.png');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: top 0 center;
+    background-size:375px 72px;
+    padding-bottom: 200px;
+  }
 }
